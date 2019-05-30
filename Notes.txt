@@ -1,0 +1,5 @@
+Some key points in binary search
+
+1: start = 0   end = len(num) - 1
+2: while start + 1 < end
+3: middle = start + (end - start)/2, and if Python then convering it to int
