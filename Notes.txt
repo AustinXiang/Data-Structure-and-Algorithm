@@ -8,6 +8,11 @@ While loop! The reason is that we should aviod recursion in engineering project 
 Though it may be easlier, don't use recursion. 
 If we can use while loop, use it. 
 
+
+Some features in question:
+1: First/Last of something
+
+
 Some key points in binary search
 
 1: start = 0   end = len(num) - 1  while start + 1 < end
