@@ -1,5 +1,22 @@
+Elementary level of algorithm:
+
+Binary search:
+
+Recursion for while loop?
+
+While loop! The reason is that we should aviod recursion in engineering project (stack overflow!)
+Though it may be easlier, don't use recursion. 
+If we can use while loop, use it. 
+
 Some key points in binary search
 
-1: start = 0   end = len(num) - 1
-2: while start + 1 < end
-3: middle = start + (end - start)/2, and if Python then convering it to int
+1: start = 0   end = len(num) - 1  while start + 1 < end
+
+So once it jumps out of the loop, start == end or start + 1 == end
+And it can also help handle first position
+
+2: middle = start + (end - start)/2
+
+3: A[middle] > < == target
+
+4: Check A[start] and A[end] in the end
