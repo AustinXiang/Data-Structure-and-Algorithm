@@ -20,7 +20,7 @@ Some key points in binary search
 So once it jumps out of the loop, start == end or start + 1 == end
 And it can also help handle first position
 
-2: middle = start + (end - start)/2
+2: middle = start + (end - start)//2
 
 3: A[middle] > < == target
 
