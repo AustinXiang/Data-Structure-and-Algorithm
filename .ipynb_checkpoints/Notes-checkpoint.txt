@@ -25,3 +25,16 @@ And it can also help handle first position
 3: A[middle] > < == target
 
 4: Check A[start] and A[end] in the end
+
+
+
+Binary tree:
+
+1: Binary tree traversal
+preorder (root left right), inorder (left root right), postorder (left right root)
+They are all depth-first algorithms
+And level order traversal is breath-first algorithms
+Divide and Conquer
+
+Note: From recursion to non-recursion algorithm, we must use stack structure to help
+
