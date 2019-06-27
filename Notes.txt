@@ -38,3 +38,8 @@ Divide and Conquer
 
 Note: From recursion to non-recursion algorithm, we must use stack structure to help
 
+2: divide-and-conquer applies to:
+quick sort
+merge sort
+most binary tree questions
+
