@@ -28,6 +28,10 @@ And it can also help handle first position
 
 
 
+
+
+
+
 Binary tree:
 
 1: Binary tree traversal
@@ -43,3 +47,17 @@ quick sort
 merge sort
 most binary tree questions
 
+
+Two templates:
+1: recursion
+def function()
+    main body
+    function(root.left)
+    function(root.right)
+    
+2: divide and conquer
+def function()
+    main body
+    left = function(root.left)
+    right = function(root.right)
+    merge them together
