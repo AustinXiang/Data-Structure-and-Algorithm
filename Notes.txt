@@ -67,3 +67,8 @@ binary tree BFS (level order traversal)
 1: 2 queues
 2: 1 queue + dummy notes
 3: 1 queue
+
+
+
+Linked List:
+
