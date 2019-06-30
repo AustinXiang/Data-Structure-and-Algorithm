@@ -72,3 +72,13 @@ binary tree BFS (level order traversal)
 
 Linked List:
 
+Dummy node: When the head is not determined (which is a common scenario for linked list questions)
+remove duplicates
+merge two sorted lists
+partitiion list
+reverse linked list
+etc.
+
+Two pointers:
+Linked list cycle
+
