@@ -82,3 +82,22 @@ etc.
 Two pointers:
 Linked list cycle
 
+
+
+
+
+
+
+TWO SUM:
+
+if (考虑 A[i] 和 A[j] 满足某个条件)：
+    j-- //不用考虑 [i+1, j-1] 和 j 组成的pair
+else if (考虑 A[i] 和 A[j] 不满足某个条件)
+    i++ //不用考虑 i 和 [i+1, j-1] 组成的pair
+    do something
+else
+    do something
+    i++ OR j--
+    
+这一类通过对撞型指针优化算法，根本上其实就是
+证明不用扫描多余状态
